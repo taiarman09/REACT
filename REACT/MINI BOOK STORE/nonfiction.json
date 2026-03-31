@@ -1,0 +1,14 @@
+{
+  "nonfiction": [
+    { "id": 1, "title": "Life of Elon", "author": "Mark Ray", "price": 399, "image": "https://picsum.photos/200?random=21" },
+    { "id": 2, "title": "History of India", "author": "R.K. Sharma", "price": 450, "image": "https://picsum.photos/200?random=22" },
+    { "id": 3, "title": "Mind Power", "author": "Olivia Brown", "price": 320, "image": "https://picsum.photos/200?random=23" },
+    { "id": 4, "title": "Science Explained", "author": "David Miller", "price": 370, "image": "https://picsum.photos/200?random=24" },
+    { "id": 5, "title": "Success Principles", "author": "James Carter", "price": 420, "image": "https://picsum.photos/200?random=25" },
+    { "id": 6, "title": "World War II", "author": "Henry Wilson", "price": 390, "image": "https://picsum.photos/200?random=26" },
+    { "id": 7, "title": "Psychology Basics", "author": "Sophia Green", "price": 340, "image": "https://picsum.photos/200?random=27" },
+    { "id": 8, "title": "Healthy Living", "author": "Emma Brown", "price": 300, "image": "https://picsum.photos/200?random=28" },
+    { "id": 9, "title": "Business Strategy", "author": "Daniel Smith", "price": 410, "image": "https://picsum.photos/200?random=29" },
+    { "id": 10, "title": "Space Discoveries", "author": "Liam Johnson", "price": 380, "image": "https://picsum.photos/200?random=30" }
+  ]
+}

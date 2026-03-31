@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "login-project-6ab24-5ea9cs",
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

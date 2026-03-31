@@ -1,0 +1,15 @@
+{
+    "user": [],
+    "food": [],
+    "product": [
+        {
+            "id": 1,
+            "img": "https://images.unsplash.com/photo-1657560566744-06d0b69f6647?q=80&w=600&auto=format&fit=crop",
+            "price": "$ 29.00",
+            "name": "Chris Jordan",
+            "para": "Looks amazing out of the box. I barely had to customize anything.",
+            "add": "Add to cart",
+            "buy": "Buy now"
+        }
+    ]
+}

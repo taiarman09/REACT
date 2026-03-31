@@ -1,0 +1,14 @@
+{
+  "fiction": [
+    { "id": 1, "title": "The Lost Kingdom", "author": "Ava Morgan", "price": 299, "image": "https://images.pexels.com/photos/46274/pexels-photo-46274.jpeg" },
+    { "id": 2, "title": "Mystery of Night", "author": "Daniel Clark", "price": 349, "image": "https://images.pexels.com/photos/164695/pexels-photo-164695.jpeg" },
+    { "id": 3, "title": "The Future World", "author": "Sophia Lee", "price": 279, "image": "https://images.pexels.com/photos/207983/pexels-photo-207983.jpeg" },
+    { "id": 4, "title": "Dark Secrets", "author": "Emma Wilson", "price": 310, "image": "https://images.pexels.com/photos/415071/pexels-photo-415071.jpeg" },
+    { "id": 5, "title": "Hidden Island", "author": "Lucas Brown", "price": 330, "image": "https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg" },
+    { "id": 6, "title": "Silent River", "author": "Mia Taylor", "price": 295, "image": "https://images.pexels.com/photos/306793/pexels-photo-306793.jpeg" },
+    { "id": 7, "title": "The Red Moon", "author": "Noah White", "price": 360, "image": "https://images.pexels.com/photos/256541/pexels-photo-256541.jpeg" },
+    { "id": 8, "title": "City of Dreams", "author": "Grace Hall", "price": 285, "image": "https://picsum.photos/200?random=18" },
+    { "id": 9, "title": "Shadow Hunter", "author": "Ethan Scott", "price": 305, "image": "https://picsum.photos/200?random=19" },
+    { "id": 10, "title": "The Last Warrior", "author": "Chloe Adams", "price": 375, "image": "https://picsum.photos/200?random=20" }
+  ]
+}

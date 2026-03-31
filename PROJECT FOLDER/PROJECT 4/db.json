@@ -1,0 +1,33 @@
+{
+  "user": [],
+  "food": [],
+  "product": [
+    {
+      "id": "4",
+      "title": "H&M Women's Casual Cotton Top",
+      "brand": "H&M",
+      "category": "women",
+      "price": 1499,
+      "description": "Soft cotton casual top with comfortable fit and trendy design for everyday wear.",
+      "img": "https://rukminim2.flixcart.com/image/612/612/xif0q/top/5/m/j/xl-1-top-brown-xl-sakshi-entertprises-original-imahjt3hkgqhuvzz.jpeg?q=70"
+    },
+    {
+      "id": "5",
+      "title": "US Polo Kids Printed T-Shirt",
+      "brand": "US Polo",
+      "category": "kids",
+      "price": 999,
+      "description": "Comfortable and stylish printed t-shirt for kids made with soft breathable cotton fabric.",
+      "img": "https://rukminim2.flixcart.com/image/612/612/kr58yvk0/kids-t-shirt/k/t/1/6-7-years-ukts7069-us-polo-association-original-imag5yydvxqrssya.jpeg?q=70"
+    },
+    {
+      "id": "6",
+      "title": "Adidas Men's Regular Fit Hoodie",
+      "brand": "Adidas",
+      "category": "men",
+      "price": 4599,
+      "description": "Comfortable cotton blend hoodie with adjustable hood and front kangaroo pocket for casual and winter wear.",
+      "img": "https://rukminim2.flixcart.com/image/612/612/xif0q/sweatshirt/x/p/r/-original-imahfwruudxkqtpc.jpeg?q=70"
+    }
+  ]
+}
