@@ -1,27 +1,9 @@
 import mensectionbanner from '../assets/mensectionbanner.png'
 import { useState, useEffect } from 'react'
-import axios from 'axios'
 
 function Men() {
 
     const [menuOpen, setMenuOpen] = useState(false)
-    const [products, setProducts] = useState([])
-    const [category, setCategory] = useState("")
-
-
-    useEffect(() => {
-        const fetchProducts = async () => {
-            try {
-                const res = await axios.get("http://localhost:8080/api/products")
-                console.log(res.data) 
-                setProducts(res.data)
-            } catch (error) {
-                console.log(error)
-            }
-        }
-
-        fetchProducts()
-    }, [])
 
 
 
@@ -126,28 +108,23 @@ function Men() {
                 <div className='flex-1 grid grid-cols-2 max-h-[600px] overflow-y-scroll sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6' style={{ scrollbarWidth: 'none' }}>
 
 
-                    {
-                        products.map((item, index) => (
-                            <div key={index} className='bg-white p-3 rounded shadow hover:shadow-lg transition'>
+                    <div className='bg-white p-3 rounded shadow hover:shadow-lg transition'>
 
-                                <div className='h-[150px] sm:h-[160px] bg-gray-200 rounded mb-3'>
-                                    <img
-                                        src={item.image}
-                                        alt={item.name}
-                                        className='w-full h-full object-cover'
-                                    />
-                                </div>
+                        <div className='h-[150px] sm:h-[160px] bg-gray-200 rounded mb-3'>
+                            <img
+                                src=""
+                                className='w-full h-full object-cover'
+                            />
+                        </div>
 
-                                <h3 className='font-semibold'>{item.name}</h3>
-                                <p className='text-gray-600'>₹{item.price}</p>
+                        <h3 className='font-semibold'>title</h3>
+                        <p className='text-gray-600'>₹price</p>
 
-                                <button className='mt-2 w-full bg-yellow-400 py-1 rounded font-semibold'>
-                                    Add to Cart
-                                </button>
+                        <button className='mt-2 w-full bg-yellow-400 py-1 rounded font-semibold'>
+                            Add to Cart
+                        </button>
 
-                            </div>
-                        ))
-                    }
+                    </div>
 
                 </div>
 
